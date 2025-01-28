@@ -4,21 +4,20 @@
     1. create variable using punctuation
     2. use loop and count punctuation in the text file
 
-3. create another variable to count characters in text file
-    1. find the length of text file.
-    2. get a loop and check the punctuation and remove the punctuation number to get number of characters
+3. get the length to get number of characters in text file
 
 4. find sentence from text file
     1. create an empty variable
     2. use line() function to count sentence number, save this into empty variable
 
 5. find paragraphs from text file
-    1. read the text file
-    2. use loop and get condition in loop use (\n) to count paragraph
+    1. split the text using '\n\n'
+    2. use loop and get condition in loop use strip() to count paragraph
 
 6. find frequent word in text file
-    1.split the text file and get two loop one into one
-    2. the first loop get the text file split and second one get the value count
+    1. import counter to count most repeated word in text file
+    2. split the text file to get a list word by word
+    3. counting the repeated word from text file using Counter()
+    4. getting the max of Counted word to get the most frequent word from the text file
 
 7. show the values
-
